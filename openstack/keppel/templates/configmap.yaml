@@ -40,7 +40,6 @@ data:
         project_domain_name: Default
       local_role: swiftoperator
       policy_path: /etc/keppel/policy.json
-      user_id: {{.Values.keppel.service_user_id}}
 
     storage:
       driver: swift
